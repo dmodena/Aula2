@@ -100,6 +100,7 @@ public class Televisao extends javax.swing.JFrame {
 
         lblVolume.setFont(new java.awt.Font("Ubuntu", 1, 15)); // NOI18N
         lblVolume.setForeground(java.awt.Color.darkGray);
+        lblVolume.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         lblVolume.setText("vl ");
 
         javax.swing.GroupLayout pnTelaLayout = new javax.swing.GroupLayout(pnTela);
@@ -108,11 +109,11 @@ public class Televisao extends javax.swing.JFrame {
             pnTelaLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(pnTelaLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(lblCanal)
-                .addContainerGap(133, Short.MAX_VALUE))
+                .addComponent(lblCanal, javax.swing.GroupLayout.PREFERRED_SIZE, 116, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnTelaLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(lblVolume)
+                .addContainerGap(39, Short.MAX_VALUE)
+                .addComponent(lblVolume, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
         pnTelaLayout.setVerticalGroup(
